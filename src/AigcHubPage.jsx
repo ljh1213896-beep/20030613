@@ -14,7 +14,7 @@ const aigcCategories = [
     title: 'AIGC IP 形象',
     meta: 'Character Cover / IP Visual',
     desc: '围绕角色性格、服装色彩、三维比例与表情气质，建立可用于封面、活动与传播延展的 AIGC IP 形象。',
-    image: '/aigc-ip/ip-03.png',
+    image: '/aigc-ip/ip-03-sm.webp',
     href: '/aigcip',
     icon: Sparkles,
     status: '精选'
