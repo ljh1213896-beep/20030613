@@ -8,6 +8,7 @@ import WoodblockPage from './WoodblockPage';
 import TypeDesignPage from './TypeDesignPage';
 import AigcVisualPage from './AigcVisualPage';
 import AigcHubPage from './AigcHubPage';
+import AigcIpPage from './AigcIpPage';
 import ContentDesignPage from './ContentDesignPage';
 import IpDesignPage from './IpDesignPage';
 import portrait from './assets/portrait-new.png';
@@ -222,6 +223,10 @@ function App() {
 
   if (pathname === '/aigc') {
     return <AigcHubPage />;
+  }
+
+  if (pathname === '/aigcip') {
+    return <AigcIpPage />;
   }
 
   if (pathname === '/contentdesign') {

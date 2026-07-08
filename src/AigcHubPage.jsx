@@ -11,20 +11,21 @@ const aigcCategories = [
     status: '已完成'
   },
   {
+    title: 'AIGC IP 形象',
+    meta: 'Character Cover / IP Visual',
+    desc: '围绕角色性格、服装色彩、三维比例与表情气质，建立可用于封面、活动与传播延展的 AIGC IP 形象。',
+    image: '/aigc-ip/ip-03.png',
+    href: '/aigcip',
+    icon: Sparkles,
+    status: '精选'
+  },
+  {
     title: 'AI 插画',
     meta: 'AI Illustration / Key Visual',
     desc: '用于活动海报、社交传播和商业主视觉的插画方向探索，强调情绪、构图与品牌调性。',
     image: '/aigc-visual/mother.webp',
     icon: Image,
     status: '整理中'
-  },
-  {
-    title: 'AIGC IP 形象',
-    meta: 'Character Cover / IP Visual',
-    desc: '围绕角色性格、服装色彩、三维比例与表情气质，建立可用于封面、活动与传播延展的 AIGC IP 形象。',
-    image: '/aigc-visual/son.webp',
-    icon: Sparkles,
-    status: '精选'
   },
   {
     title: '正在探索',
@@ -71,7 +72,7 @@ function AigcHubPage() {
             const CardTag = href ? 'a' : 'article';
             return (
               <CardTag
-                className="aigc-category-card"
+                className={`aigc-category-card ${href === '/aigcip' ? 'aigc-category-card-ip' : ''}`}
                 href={href || undefined}
                 key={title}
                 style={{ '--delay': `${0.18 + index * 0.12}s`, '--start-rotate': `${index % 2 === 0 ? -7 : 7}deg` }}
