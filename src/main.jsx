@@ -387,7 +387,7 @@ function App() {
             >
               精选项目
             </ScrollFloat>
-            <p>先用基础视觉占位搭出作品集节奏，后续可直接替换为真实项目截图、封面或动态展示。</p>
+            <p>围绕品牌视觉、AIGC 探索、字体设计与内容传播，精选能够体现完整思考与落地能力的代表项目。</p>
           </div>
           <div className="project-grid">
             {projects.map((project) => {

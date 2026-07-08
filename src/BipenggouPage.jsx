@@ -307,7 +307,7 @@ function BipenggouPage() {
             <div className="logo-audit-head">
               <span>5-point self check</span>
               <h3>Logo 拆解</h3>
-              <p>图形列用于提炼标志中的关键视觉元素，右侧文字负责说明每个元素在 VIS 中的作用。</p>
+              <p>从山形笔触、溪谷弧线、中文书写与橙色圆点中拆解视觉记忆点，呈现标志从地域意象到品牌符号的生成逻辑。</p>
             </div>
             <div className="logo-audit-grid">
               {logoAuditItems.map((item, index) => (

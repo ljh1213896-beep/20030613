@@ -105,7 +105,7 @@ function WoodblockPage() {
                 {String(activePage + 1).padStart(2, '0')} / {String(pageCount).padStart(2, '0')}
               </span>
               <strong>《非遗木版年画》真实书籍内页</strong>
-              <p>点击下方缩略页切换中心放大内容，背景页面保持流动展示。</p>
+              <p>以粉色版画笔触串联历史资料、民俗图像与版式实验，呈现传统木版语言在当代书籍设计中的再组织。</p>
             </div>
           </div>
 

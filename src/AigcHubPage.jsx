@@ -19,17 +19,17 @@ const aigcCategories = [
     status: '整理中'
   },
   {
-    title: '角色封面',
+    title: 'AIGC IP 形象',
     meta: 'Character Cover / IP Visual',
-    desc: '围绕人物性格、服装色彩和三维软萌比例，建立可延展的角色视觉系统。',
+    desc: '围绕角色性格、服装色彩、三维比例与表情气质，建立可用于封面、活动与传播延展的 AIGC IP 形象。',
     image: '/aigc-visual/son.webp',
     icon: Sparkles,
     status: '精选'
   },
   {
-    title: '商业视觉',
+    title: '正在探索',
     meta: 'Campaign Visual / Brand Content',
-    desc: '将 AIGC 生成结果转译成可落地的封面、短视频开屏、活动物料和传播图。',
+    desc: '持续尝试将 AIGC 生成结果转译为封面、短视频开屏、活动物料和品牌传播图，探索更稳定的商业落地方式。',
     image: '/aigc-visual/father.webp',
     icon: Wand2,
     status: '持续更新'
